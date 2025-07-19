@@ -10,14 +10,14 @@ function clik (btn){
   button[1].style.display = "none"
   ctn.style.height = "270px"
   ctn.style.width = "270px"
-  return btn.textContent == "Iya 🤗" ? kata.textContent = "😊 Lolos Step Selanjutnya nih hehehe" : kata.textContent = "😭😭😭😭😭😭"
+  return btn.textContent == "Haii juga 🤗" ? kata.textContent = "😊 Lolos Step Selanjutnya nih hehehe" : kata.textContent = "😭😭😭😭😭😭"
   
 }
 function content(){
   ctn.style.width = "300px"
   ctn.style.height = "400px"
   ctn.style.borderRadius = "5px"
-  kata.textContent = "Hay, cuma mau ucapin, semangat ya Sherly 😊"
+  kata.textContent = "Cuma mau ucapin, Haii Ajasih 😊"
 }
 function pesanHilang(){
   const divpesan = document.querySelector("div.pesan")
